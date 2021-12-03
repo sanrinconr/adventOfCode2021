@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	pb := problems.Day1{}
+	pb := problems.Day1Part2{}
 	response := pb.Execute()
 
 	fmt.Printf("the response is '%s'", response)
